@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-
+    do{
     int a,b,c,e;
     char f;
         printf("Enter the value of A: ");
@@ -48,5 +48,9 @@ int main(){
                 printf("\n          Better luck next time!");
                 printf("\n");
             }
+                printf("\nLet's try another one\n\n");
+            
+    }while(1);
 
 }
+
