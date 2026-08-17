@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 #include <ctype.h>
 int main() {
 	char a[16];
@@ -16,6 +15,6 @@ int main() {
 		else
 				printf("%c", a[i]);
 	}
-
+    printf(".");
 	return 0;
 }
